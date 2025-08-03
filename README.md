@@ -1,63 +1,30 @@
-📊 Olist E-commerce Data Analysis in MySQL
-🚀 Project Overview
-This project performs data analysis on the Olist e-commerce dataset using MySQL. The dataset contains detailed information about orders, customers, products, sellers, payments, and reviews. Through structured SQL queries, we aim to extract actionable business insights that highlight customer behavior, sales performance, and operational efficiency in the e-commerce domain.
+Olist E-commerce Data Analysis in MySQL
 
-🎯 Motivation
-E-commerce has revolutionized the retail industry by removing geographical and time-related barriers. This project is driven by my interest in understanding how e-commerce platforms operate and how data analytics can enhance decision-making. The goal is to:
+Project Overview:
+This project focuses on analyzing the Olist e-commerce dataset from Kaggle using MySQL. The dataset contains extensive information on orders, customers, products, sellers, and reviews. Through structured queries and analytical techniques, the project aims to extract valuable business insights and explore data-driven decision-making in the e-commerce sector.
 
-Identify top-selling categories
+Motivation:
+E-commerce has transformed shopping by eliminating geographical and temporal boundaries, enabling consumers to shop anytime and anywhere. My motivation for this project stems from a deep interest in understanding the operational dynamics of e-commerce platforms, their impact on consumer behavior, and how data analytics can reveal key business insights. By working on this project, I aim to uncover patterns, track sales performance, and understand customer preferences, contributing to better business strategies in the e-commerce industry.
 
-Understand customer preferences and buying behavior
-
-Analyze seller performance and retention
-
-Assess delivery timelines and review quality
-
-By analyzing these factors, we can derive insights that support improved business strategies in the e-commerce ecosystem.
-
-🛠️ Tools & Technologies
-Database: MySQL
-
-Data Source: Kaggle - Olist Brazilian E-commerce Dataset
-
+Method and results:
+Tools: MYSQL
 Visualization:
+<img width="1001" height="562" alt="image" src="https://github.com/user-attachments/assets/bc94a80a-2ceb-4dff-9bde-2a588a558b4a" />
 
-<img width="1001" height="562" alt="image" src="https://github.com/user-attachments/assets/9430c435-2390-4ad2-b8ce-d675f346a214" />                                                                                                
+Results: The revenue from 09/2016 to 10/2018 was 15.4 million, and the orders from 09/2016 to 10/2018 were 96,470. The sales continuously increased over time.
 
-📈 Key Insights
-🧾 Revenue (09/2016 to 10/2018): $15.4 million
+  The average per order (AOV) was $160, and the cost per order (CPO) was also $160.
+     
+     The most popular products were bed_bath_table, health_beauty, sports_leisure, 
+     furniture_decor, and computers_accessories.
+     
+     58% of sellers on Olist are active sellers. And they increased over time.
+     
+     2.9% of customers made repeat purchases; they obtained 5.6% of the revenue.
+     
+     The average review score on Olist was 4, and NPS (Net promoter score) was 65%.
+     
+     The average cancellation rate was 0.63%.
 
-📦 Total Orders: 96,470
-
-📈 Sales Trend: Continuous growth over the period
-
-💳 Average Order Value (AOV): $160
-
-🛒 Top Product Categories:
-
-Bed, Bath & Table
-
-Health & Beauty
-
-Sports & Leisure
-
-Furniture & Decor
-
-Computers & Accessories
-
-🧑‍💼 Active Sellers: 58% of sellers remained active and showed an upward trend
-
-🔁 Repeat Customers: 2.9% of customers generated 5.6% of revenue
-
-🌟 Average Review Score: 4.0
-
-📣 Net Promoter Score (NPS): 65%
-
-❌ Cancellation Rate: 0.63%
-
-📂 How to Use
-Clone the repository.
-
-Run the SQL script (Olist.sql) in MySQL Workbench or your preferred SQL client.
-
-Explore and modify the queries to perform your own analyses.
+Data source:
+Kaggle
